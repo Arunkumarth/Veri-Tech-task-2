@@ -1,0 +1,224 @@
+*,body{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.promotion{
+    width: 100%;
+    padding: 6%;
+    display: flex;
+    background-color: lightseagreen;
+    gap: 6%;
+
+}
+.promo-pic{
+    width: 50%;
+
+}
+.promo-title{
+    font-size: 4rem;
+    padding: 4%;
+    border-radius: 6px;
+    background-color: white;
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.promo-title>p{
+    font-size: 2rem;
+    color: #555;
+    font-weight: 400;
+}
+.hrb{
+    max-width: 50vw;
+    height: 1vh;
+    background-color: lightseagreen;
+
+}
+.hrb-md{
+    max-width:40vw ;
+    height: 1vh;
+    background-color: lightseagreen;
+}
+.why{
+    padding: 6%;
+    background-color: lightseagreen;
+}
+.why-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 1%;
+    padding: 1% 0;
+    justify-content: space-around;
+}
+.why-card{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2%;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 6px;
+    /* max-height: 60vh; */
+    overflow: hidden;
+}
+.why-card:hover{
+    scale: 1.2;
+    transition: .6s;
+}
+.why>h3{
+    font-size: 2.2rem;
+    padding-bottom: 6vh;
+    color: lightpink;
+}
+.why-card>h4{
+    font-size: 1.1rem;
+    padding-bottom: 1vh;
+    /* color: lightgreen; */
+
+}
+.why-card>p{
+    color: gray;
+}
+
+.container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.intro{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    justify-content: space-around;
+    padding:2%; 
+    background-color: lightseagreen;
+}
+.c-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    background-color: white;
+    padding: 2%;
+
+}
+.c-title>p{
+    font-size: 1.2rem;
+}
+h1{
+    font-size: 2rem;
+    color:rgb(0, 123, 255) ;
+}
+h3{
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 12px 10px;
+}
+button:hover{
+    background-color:rgba(47, 61, 255,.8) ;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.info{
+    display: flex;
+    font-size: 1.2rem;
+    flex-direction: column;
+    max-height: 90%;
+    justify-content: space-around;
+    width: 30%;
+    background-color: rgb(242, 244, 244);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 14px rgb(138, 134, 134);
+}
+.info>h4{
+    font-size: 1.8rem;
+    color:rgb(0, 123, 255) ;
+}
+.modules{
+    background-color: lightseagreen;
+    padding: 4%;
+}
+.modules>h2{
+    color: white;
+    text-align: center;
+    padding-bottom:2vh ;
+    font-size: 1.8rem;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* padding:1% 4%; */
+    justify-content: space-evenly;
+    gap: 20px;
+    /* column-gap: 2%; */
+}
+
+
+/* style.css */
+.card {
+    border: 1px solid rgb(204, 204, 204);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 24%;
+    background-color: white;
+
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding: 1% 0;
+
+}
+
+.card-description {
+    font-size: 1rem;
+    color: #555;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: rgb(0, 123, 255);
+    color: #fff;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 4px;
+    width: 30%;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+@media only screen and (max-width: 600px){
+    .promotion{
+        flex-direction: column;
+
+    }
+    .why-container{
+        flex-direction: column;
+    }
+    .intro{
+        flex-direction: column;
+    }
+    .content{
+        flex-direction: column;
+    }
+}
